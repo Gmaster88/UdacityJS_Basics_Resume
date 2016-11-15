@@ -110,28 +110,28 @@ var projects = {
 								"datesWorked": "December 2014 - January 2015",
 								"description": "Created an online game using HTML5 Canvas as part of Udacity's Front-End Web Developer " +
 								"Nanodegree.",
-								"images": ["images/frogger.jpg"],
+								"images": [""],
 								"url": "http://www.cherylcourt.ca/frogger"
 							},
 							{
 								"title": "Web Development Wiki",
 								"datesWorked": "June 2014 - August 2014",
 								"description": "Created an online wiki for Udacity's Web Development Course.",
-								"images": ["images/web.jpg"],
+								"images": [""],
 								"url": "http://helpful-kit-572.appspot.com/"
 							},
 							{
 								"title": "Web Development Wiki",
 								"datesWorked": "June 2014 - August 2014",
 								"description": "Created an online wiki for Udacity's Web Development Course.",
-								"images": ["images/web.jpg"],
+								"images": [""],
 								"url": "http://helpful-kit-572.appspot.com/"
 							},
 							{
 								"title": "Web Development Wiki",
 								"datesWorked": "June 2014 - August 2014",
 								"description": "Created an online wiki for Udacity's Web Development Course.",
-								"images": ["images/web.jpg"],
+								"images": [""],
 								"url": "http://helpful-kit-572.appspot.com/"
 							}]
 				};
