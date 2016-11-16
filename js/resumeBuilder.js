@@ -1,140 +1,171 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
+var bio = {
+	"name": "Shivom Gargava",
+	"role": "Software Developer",
+	"contacts": {
+		"email": "shivomgargava@gmail.com",
+		"github": "Gmaster88",
+		"twitter": "@shivomgargava",
+		"location": "Noida, India"
+	},
+	"picture": "images/me.jpg",
+	"welcomeMessage": "Hey! Thanks for stopping by. I'm currently working as a Software Developer at Tech Mahindra Ltd in Noida, India.",
+	"skills": ["Java", "python", "Software Development", "Test Driven Development", "Retrospective Facilitation"]
+};
 
-// $("#main").append("Shivom Gargava");
+var work = {
+	"jobs": [
+		{
+			"employer": "Tech Mahindra Ltd",
+			"title": "Sr. Software Developer",
+			"location": "Noida, India",
+			"datesWorked": "March 2016 - Still working",
+			"description": "I was hired to work on Localize's online system, which involved knowledge in C# development, jQuery, knockoutJS, "+
+				"SQL Server, Razor templates and Wordpress. I had limited experience with some of these so I learned quickly to become "+
+				"productive as soon as possible.  I also lead discussions around better communication between the development team and "+
+				"the business as well as definiing the company vision.  I enjoyed my time at Localize and learned a tremendous amount "+
+				"from everyone I worked with there."
+		},
+		{
+			"employer": "Shri Sai Das Institute",
+			"title": "IT Consultant",
+			"location": "Bhopal, India",
+			"datesWorked": "March 2015 - February 2016",
+			"description": "Working on developing an analysis platform for students to help them assess their performance and growth." +  
+			"In its testing phase will be operating on student strength of 1000-5000, and then will be opened for large scale usage (worldwide)." + 
+			"Worked towards the requirement analysis based on readings from previous related researches on student analysis." + 
+			"Responsibilities include, working with the portal development team and the website team for enhancements."
+		},
+		{
+			"employer": "Tech Mahindra Ltd",
+			"title": "Software Engineer,",
+			"location": "Noida, India",
+			"datesWorked": "July 2012 – July 2014",
+			"description": "Re-furbished the customer billing and plan applications by making it user friendly for AT&T web domain."+
+			"Reduced the team effort and time by implementing work around from time to time."+
+			"Responsibilities included development tasks in the projects in the form of Rapid Deployments."+
+			"Pre-production and production testing and build of the files on servers and worked on each stage of SDLC."+
+			"Managed database of the application and performed editing tasks as and when required."
 
+		},
+		{
+			"employer": "Shri Sai Das Institute",
+			"title": "Consultant and Tutor",
+			"location": "Bhopal, India",
+			"datesWorked": "August 2011 – June 2012",
+			"description": "As a part of portal management team managed institute’s website (.NET) and build score analyzing methods." +
+			"Taught mathematics to the students of ninth and tenth grade and prepared a special batch for competitive exams."
+		},
 
-// var awesomeThoughts = "I am Shivom and I am AWESOME!"
+// Intern, Netlink Software Pvt. Ltd, Bhopal, India			     (Jun 2009 – Oct 2009)
+// •As an internship requirement re-designed an application for a project on retail management system.
+// •Learned about the application development approach and got experience in J2EE development practices.
+// •Performed database maintenance and introduced checks and triggers for application consistency.
 
-
-
-// var funThoughts = awesomeThoughts.replace("AWESOME", "FUN");
-
-// $("#main").append(funThoughts);
-
-
-var bio = { 
-			"name" : "Shivom Gargava", 
-			"role" : "Software Engineer" ,
-			"contact" : {"mobile" : "9711621218", "email" : "shivomgargava@gmail.com", 
-						"github" : "Gmaster88" , "twitter" : "@shivomgargava", "blog" : "blog", "location" : "Noida"}, 
-			"welcomeMessage" : "Currently working as a Software Engineer in Tech Mahindra Ltd, have an experience of working on each stage of SDLC.", 
-			"skills" : ["Java", "J2EE", "ETL Dev", "SQL", "DataBase Management", "Software Development", "Hadoop", "JavaScript", "AngularJS"], 
-			"biopic" : "images/me.jpg"
-		};
-
-
-
-var work = { 
-			"jobs" : [{
-						"employer": "Localize",
-						"title": "Senior Software Developer",
-						"location": "Edmonton, Alberta, Canada",
-						"datesWorked": "March 2015 - December 2015",
-						"description": "I was hired to work on Localize's online system, which involved knowledge in C# development, jQuery, knockoutJS, "+
-										"SQL Server, Razor templates and Wordpress. I had limited experience with some of these so I learned quickly to become "+
-										"productive as soon as possible.  I also lead discussions around better communication between the development team and "+
-										"the business as well as definiing the company vision.  I enjoyed my time at Localize and learned a tremendous amount "+
-										"from everyone I worked with there."
-						},
-
-						{
-						"employer": "Localize",
-						"title": "Senior Software Developer",
-						"location": "Edmonton, Alberta, Canada",
-						"datesWorked": "March 2015 - December 2015",
-						"description": "I was hired to work on Localize's online system, which involved knowledge in C# development, jQuery, knockoutJS, "+
-										"SQL Server, Razor templates and Wordpress. I had limited experience with some of these so I learned quickly to become "+
-										"productive as soon as possible.  I also lead discussions around better communication between the development team and "+
-										"the business as well as definiing the company vision.  I enjoyed my time at Localize and learned a tremendous amount "+
-										"from everyone I worked with there."
-						},
-						{
-						"employer": "Localize",
-						"title": "Senior Software Developer",
-						"location": "Edmonton, Alberta, Canada",
-						"datesWorked": "March 2015 - December 2015",
-						"description": "I was hired to work on Localize's online system, which involved knowledge in C# development, jQuery, knockoutJS, "+
-										"SQL Server, Razor templates and Wordpress. I had limited experience with some of these so I learned quickly to become "+
-										"productive as soon as possible.  I also lead discussions around better communication between the development team and "+
-										"the business as well as definiing the company vision.  I enjoyed my time at Localize and learned a tremendous amount "+
-										"from everyone I worked with there."
-					}]
-			};
+// Project Assistant, Jai Narain College of Technology, Bhopal, India 				    (Jan 2010 – Mar 2011)
+// •Assessed the project synopsis submitted by the students.
+// •Performed the relevancy checks before passing projects to the Professors for final grading.
+		{
+			"employer": "Netlink Software Pvt. Ltd",
+			"title": "Intern",
+			"location": "Bhopal, India",
+			"datesWorked": "June 2009 – October 2009",
+			"description": "As an internship requirement re-designed an application for a project on retail management system." +
+			"Learned about the application development approach and got experience in J2EE development practices." +
+			"Performed database maintenance and introduced checks and triggers for application consistency."
+		},
+		{
+			"employer": "Jai Narain College of Technology",
+			"title": "Project Assistant",
+			"location": "Bhopal, India",
+			"datesWorked": "January 2010 – March 2011",
+			"description": "Assessed the project synopsis submitted by the students." +
+			"designed and implemented a prototype software application using JES (Java Embedded Server) and JMS (Java " +
+			"Performed the relevancy checks before passing projects to the Professors for final grading." 
+		}
+	]
+};
 
 var education = {
-				  "schools" : [{ 
-				  				"name": "North Carolina State University",
-				  				"datesAttended": "Aug 2014 - Dec 2014 (One Semester)",
-								"location": "Raliegh, NC, USA",
-								"degree": "Master of Science",
-								"major": "Computer Science",
-								"minor": "Data Science",
-								"url": "www.ncsu.edu"
-							},
-							{
-								"name": "Rajiv Gandhi Technological University",
-				  				"datesAttended": "Sep 2007 - Jun 2011",
-								"location": "Bhopal, India",
-								"degree": "Bachelor of Technology",
-								"major": "Computer Science",
-								"minor": "Physics",
-								"url": "www.rgtu.edu"
-							}],
-					"onlineCourses" : [{ 
-										"school": "Udacity",
-										"title": "Javascript Basics",
-										"completed": "November 2016",
-										"url": "https://www.udacity.com/course/ud804"
-										},
-										{ 
-										"school": "Coursera",
-										"title": "Introduction to Big Data",
-										"completed": "Dec 2015",
-										"url": "https://www.udacity.com/course/ud804"
-										},
-										{ 
-										"school": "Coursera",
-										"title": "Algorithms Part 1",
-										"completed": "March 2014",
-										"url": "https://www.udacity.com/course/ud804"
-										}
-								]
-				};
-
+	"schools": [
+		{ "name": "North Carolina State University",
+			"datesAttended": "August 2014 - January 2015",
+			"location": "Raleigh, North Carolina, USA",
+			"degree": "Master of Computer Science (One Semester)",
+			"major": "Computer Science",
+			"minor": "Data Science",
+			"url": "https://www.ncsu.edu"
+		},
+		{ "name": "Rajiv Gandhi Technological University, JNCT",
+			"datesAttended": "September 2007 - June 2011",
+			"location": "Bhopal, India",
+			"degree": "Bachelor of Engineering",
+			"major": "Computer Science",
+			"minor": "Physics",
+			"url": "https://www.rgpv.ac.in"
+		}				
+	],
+	"onlineCourses": [
+		{ "school": "Udacity",
+			"title": "Javascript Basics",
+			"completed": "November 2016",
+			"url": "https://www.udacity.com/course/ud015"
+		},
+		{ "school": "Coursera",
+			"title": "Introduction to Big Data",
+			"completed": "May 2016",
+			"url": "https://www.coursera.org/learn/big-data-introduction"
+		},
+		{ "school": "Coursera",
+			"title": "Algorithms, Part 1",
+			"completed": "October 2015",
+			"url": "https://www.coursera.org/learn/introduction-to-algorithms"
+		}
+	]
+};
 
 var projects = {
-				"projects" : [{
-								"title": "HTML5 Canvas Game",
-								"datesWorked": "December 2014 - January 2015",
-								"description": "Created an online game using HTML5 Canvas as part of Udacity's Front-End Web Developer " +
-								"Nanodegree.",
-								"images": [""],
-								"url": "http://www.cherylcourt.ca/frogger"
-							},
-							{
-								"title": "Web Development Wiki",
-								"datesWorked": "June 2014 - August 2014",
-								"description": "Created an online wiki for Udacity's Web Development Course.",
-								"images": [""],
-								"url": "http://helpful-kit-572.appspot.com/"
-							},
-							{
-								"title": "Web Development Wiki",
-								"datesWorked": "June 2014 - August 2014",
-								"description": "Created an online wiki for Udacity's Web Development Course.",
-								"images": [""],
-								"url": "http://helpful-kit-572.appspot.com/"
-							},
-							{
-								"title": "Web Development Wiki",
-								"datesWorked": "June 2014 - August 2014",
-								"description": "Created an online wiki for Udacity's Web Development Course.",
-								"images": [""],
-								"url": "http://helpful-kit-572.appspot.com/"
-							}]
-				};
+	"projects": [
+		{
+			"title": "Online Portfolio",
+			"datesWorked": "November 2016",
+			"description": "Created an online portfolio as part of Udacity's Javascript Basics Course."
+			"images": [""],
+			"url": "https://gmaster88.github.io/UdacityJS_Basics_Resume/"
+		}
+		{
+			"title": "Online Quizzing and Grading System",
+			"datesWorked": "December 14",
+			"description": "Gradiance was a project aimed at preparing a grading system for the assignments submitted at North "+
+			"Carolina State University in Masters course for DataBase Management Systems to facilitate grading for faculty members.",
+			"images": [""],
+			"url": "https://github.com/Gmaster88/GradingSystem"
+		}
+		{
+			"title": "Customization of SimpleDB Database System",
+			"datesWorked": "October 2014",
+			"description": "Created for the purpose of implementing G-Clock policy in Database Management Systems as a course project.",
+			"images": [""],
+			"url": "https://github.com/Gmaster88/DB_Simple"
+		}
+		{
+			"title": "Online File Sharing Application",
+			"datesWorked": "September 2014",
+			"description": "This was an application created within 24hrs using open source APIs of Google Drive and Dropbox," +
+			"by implementing three way handshaking authentication for sharing the files and documents online by the users of "+
+			"the application.",
+			"images": [""],
+			"url": "https://gmaster88.github.io/UdacityJS_Basics_Resume/"
+		}
+		{
+			"title": "Java Code Compiler",
+			"datesWorked": "March 2011",
+			"description": "The project was intended to understand the working of an IDE by creating a simple replica in core java using applets.",
+			"images": [""],
+			"url": "https://gmaster88.github.io/UdacityJS_Basics_Resume/"
+		},
+		
+	]
+};
 
 
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
@@ -153,8 +184,6 @@ $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
 $("#header").append(formattedBioPic);
 $("#header").append(formattedWelcomeMsg);
-
-
 
 if(bio.skills.length > 0) {
 	$("#header").append(HTMLskillsStart);
@@ -387,11 +416,5 @@ $(function () {
 
 
 $("#mapDiv").append(googleMap);
-
-
-
-
-
-
 
 
