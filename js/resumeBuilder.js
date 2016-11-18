@@ -9,7 +9,7 @@ var bio = {
 	},
 	"picture": "images/me.jpg",
 	"welcomeMessage": "Hey! Thanks for stopping by. I'm currently working as a Software Developer at Tech Mahindra Ltd in Noida, India.",
-	"skills": ["Java", "python", "Software Development", "Test Driven Development", "Retrospective Facilitation"]
+	"skills": ["Java", "J2EE", "ETL Dev", "SQL", "DataBase Management", "Software Development", "Hadoop", "JavaScript", "AngularJS"]
 };
 
 var work = {
@@ -17,7 +17,7 @@ var work = {
 		{
 			"employer": "Tech Mahindra Ltd",
 			"title": "Sr. Software Developer",
-			"location": "Noida, India",
+			"location": "Noida, Uttar Pradesh, India",
 			"datesWorked": "March 2016 - Still working",
 			"description": "I was hired to work on Localize's online system, which involved knowledge in C# development, jQuery, knockoutJS, "+
 				"SQL Server, Razor templates and Wordpress. I had limited experience with some of these so I learned quickly to become "+
@@ -28,31 +28,31 @@ var work = {
 		{
 			"employer": "Shri Sai Das Institute",
 			"title": "IT Consultant",
-			"location": "Bhopal, India",
+			"location": "Bhopal, Madhya Pradesh, India",
 			"datesWorked": "March 2015 - February 2016",
-			"description": "Working on developing an analysis platform for students to help them assess their performance and growth." +  
-			"In its testing phase will be operating on student strength of 1000-5000, and then will be opened for large scale usage (worldwide)." + 
-			"Worked towards the requirement analysis based on readings from previous related researches on student analysis." + 
+			"description": "Working on developing an analysis platform for students to help them assess their performance and growth. " +  
+			"In its testing phase will be operating on student strength of 1000-5000, and then will be opened for large scale usage (worldwide). " + 
+			"Worked towards the requirement analysis based on readings from previous related researches on student analysis. " + 
 			"Responsibilities include, working with the portal development team and the website team for enhancements."
 		},
 		{
 			"employer": "Tech Mahindra Ltd",
-			"title": "Software Engineer,",
-			"location": "Noida, India",
+			"title": "Software Engineer",
+			"location": "Noida, Uttar Pradesh, India",
 			"datesWorked": "July 2012 – July 2014",
-			"description": "Re-furbished the customer billing and plan applications by making it user friendly for AT&T web domain."+
-			"Reduced the team effort and time by implementing work around from time to time."+
-			"Responsibilities included development tasks in the projects in the form of Rapid Deployments."+
-			"Pre-production and production testing and build of the files on servers and worked on each stage of SDLC."+
+			"description": "Re-furbished the customer billing and plan applications by making it user friendly for AT&T web domain. "+
+			"Reduced the team effort and time by implementing work around from time to time. "+
+			"Responsibilities included development tasks in the projects in the form of Rapid Deployments. "+
+			"Pre-production and production testing and build of the files on servers and worked on each stage of SDLC. "+
 			"Managed database of the application and performed editing tasks as and when required."
 
 		},
 		{
 			"employer": "Shri Sai Das Institute",
 			"title": "Consultant and Tutor",
-			"location": "Bhopal, India",
+			"location": "Bhopal, Madhya Pradesh, India",
 			"datesWorked": "August 2011 – June 2012",
-			"description": "As a part of portal management team managed institute’s website (.NET) and build score analyzing methods." +
+			"description": "As a part of portal management team managed institute’s website (.NET) and build score analyzing methods. " +
 			"Taught mathematics to the students of ninth and tenth grade and prepared a special batch for competitive exams."
 		},
 
@@ -69,8 +69,8 @@ var work = {
 			"title": "Intern",
 			"location": "Bhopal, India",
 			"datesWorked": "June 2009 – October 2009",
-			"description": "As an internship requirement re-designed an application for a project on retail management system." +
-			"Learned about the application development approach and got experience in J2EE development practices." +
+			"description": "As an internship requirement re-designed an application for a project on retail management system. " +
+			"Learned about the application development approach and got experience in J2EE development practices. " +
 			"Performed database maintenance and introduced checks and triggers for application consistency."
 		},
 		{
@@ -79,7 +79,6 @@ var work = {
 			"location": "Bhopal, India",
 			"datesWorked": "January 2010 – March 2011",
 			"description": "Assessed the project synopsis submitted by the students." +
-			"designed and implemented a prototype software application using JES (Java Embedded Server) and JMS (Java " +
 			"Performed the relevancy checks before passing projects to the Professors for final grading." 
 		}
 	]
@@ -128,10 +127,10 @@ var projects = {
 		{
 			"title": "Online Portfolio",
 			"datesWorked": "November 2016",
-			"description": "Created an online portfolio as part of Udacity's Javascript Basics Course."
+			"description": "Created an online portfolio as part of Udacity's Javascript Basics Course.",
 			"images": [""],
 			"url": "https://gmaster88.github.io/UdacityJS_Basics_Resume/"
-		}
+		},
 		{
 			"title": "Online Quizzing and Grading System",
 			"datesWorked": "December 14",
@@ -139,14 +138,14 @@ var projects = {
 			"Carolina State University in Masters course for DataBase Management Systems to facilitate grading for faculty members.",
 			"images": [""],
 			"url": "https://github.com/Gmaster88/GradingSystem"
-		}
+		},
 		{
 			"title": "Customization of SimpleDB Database System",
 			"datesWorked": "October 2014",
 			"description": "Created for the purpose of implementing G-Clock policy in Database Management Systems as a course project.",
 			"images": [""],
 			"url": "https://github.com/Gmaster88/DB_Simple"
-		}
+		},
 		{
 			"title": "Online File Sharing Application",
 			"datesWorked": "September 2014",
@@ -155,14 +154,14 @@ var projects = {
 			"the application.",
 			"images": [""],
 			"url": "https://gmaster88.github.io/UdacityJS_Basics_Resume/"
-		}
+		},
 		{
 			"title": "Java Code Compiler",
 			"datesWorked": "March 2011",
 			"description": "The project was intended to understand the working of an IDE by creating a simple replica in core java using applets.",
 			"images": [""],
 			"url": "https://gmaster88.github.io/UdacityJS_Basics_Resume/"
-		},
+		}
 		
 	]
 };
@@ -292,21 +291,24 @@ education.display = function() {
 education.display();
 
 /**
- * Skills Chart
+ * Technical Shill Usage Chart
  */
 $(function () {
-    $('#container').highcharts({
+    Highcharts.chart('container', {
         chart: {
             type: 'scatter',
             zoomType: 'xy'
         },
         title: {
-            text: 'Skills'
+            text: 'Technical Skills Usage Data'
+        },
+        subtitle: {
+            text: 'Technology Usage Frequency'
         },
         xAxis: {
             title: {
                 enabled: true,
-                text: 'Used (year)'
+                text: 'Worked (Year)'
             },
             startOnTick: true,
             endOnTick: true,
@@ -314,15 +316,15 @@ $(function () {
         },
         yAxis: {
             title: {
-                text: 'Duration (months)'
+                text: 'Duration (Months)'
             }
         },
         legend: {
             layout: 'vertical',
             align: 'left',
             verticalAlign: 'top',
-            x: 250,
-            y: 0,
+            x: 15,
+            y: 15,
             floating: true,
             backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
             borderWidth: 1
@@ -334,7 +336,7 @@ $(function () {
                     states: {
                         hover: {
                             enabled: true,
-                            lineColor: 'rgb(100,100,100)'
+                            lineColor: 'black'
                         }
                     }
                 },
@@ -347,71 +349,53 @@ $(function () {
                 },
                 tooltip: {
                     headerFormat: '<b>{series.name}</b><br>',
-                    pointFormat: 'Used in {point.x} for {point.y} month(s)'
+                    pointFormat: 'Worked for {point.y} Months in year {point.x}'
                 }
-			}
-		},
-		series: [{
-				name: 'Java',
-				color: 'rgba(223, 83, 83, .5)',
-				data: [[2014, 11], [2013, 11], [2012, 11], [2011, 8], [2010, 4], [2009, 12], [1998, 8], [1999, 8], [2000, 4]]
-			},
-			{
-				name: 'python',
-				color: 'rgba(119, 152, 191, .5)',
-				data: [[2014, 1], [2013, 1], [2012, 1], [2011, 1]]
-			},
-			{
-				name: 'SQL',
-				color: 'rgba(119, 152, 80, .5)',
-				data: [[2013, 2]]
-			},
-			{
-				name: 'PL/SQL',
-				color: 'rgba(170, 162, 30, .5)',
-				data: [[2010, 2], [2006, 4]]
-			},
-			{
-				name: 'C++',
-				color: 'rgba(0, 102, 0, .5)',
-				data: [[2004, 12], [2003, 6]]
-			},
-			{
-				name: 'C',
-				color: 'rgba(0, 102, 0, .5)',
-				data: [[1997, 8], [2004, 2], [2008, 4]]
-			},
-			{
-				name: 'Javascript',
-				color: 'rgba(204, 0, 0, .5)',
-				data: [[2014, 1]]
-			},
-			{
-				name: 'HTML/CSS',
-				color: 'rgba(153, 51, 0, .5)',
-				data: [[2014, 5], [2002, 3], [2008, 4], [2005, 2]]
-			},
-			{
-				name: 'Web Development',
-				color: 'rgba(0, 153, 102, .5)',
-				data: [[2014, 2]]
-			},
-			{
-				name: 'TDD',
-				color: 'rgba(0, 102, 51, .5)',
-				data: [[2014, 12], [2013, 12], [2012, 12], [2011, 4]]
-			},
-			{
-				name: 'Django',
-				color: 'rgba(204, 102, 0, .5)',
-				data: [[2013, 2.5]]
-			},
-			{
-				name: 'Perl',
-				color: 'rgba(210, 200, 0, .5)',
-				data: [[2011, 3], [2013, 1], [2012, 1], [2014, 1]]
-			}]
-	});
+            }
+        },
+        series: [{
+            name: 'C++',
+            color: 'blue',
+            data: [[2005.0, 8.0], [2006.0, 7.0], [2007, 4]]
+            
+            }, {
+            name: 'Java',
+            color: 'brown',
+            data: [[2007, 3], [2008, 6], [2009, 8], [2011, 5], [2012, 9],[2013, 12],[2014, 10], [2016, 6]]
+        },
+        {
+            name: 'JavaScript',
+            color: 'pink',
+            data: [[2011, 2], [2012, 5],[2013, 6],[2014, 2], [2016, 2]]
+        },
+        {
+            name: 'HTML/CSS',
+            color: 'green',
+            data: [[2008, 2], [2009, 3], [2011, 2], [2012, 4],[2013, 5],[2014, 3], [2016, 3]]
+        },
+        {
+            name: '.NET(ETL Development)',
+            color: 'purple',
+            data: [[2011, 2], [2016, 6]]
+        },
+        {
+            name: 'SQL and PL/SQL',
+            color: 'red',
+            data: [[2007, 1], [2008, 4], [2009, 1], [2010, 2], [2012, 4],[2013, 7],[2014, 3], [2016, 2.5]]
+        },
+        {
+            name: 'Perl',
+            color: 'orange',
+            data: [[2012, 6],[2013, 4],[2014, 3], [2016, 3]]
+        },
+        {
+            name: 'Web Development',
+            color: 'grey',
+            data: [[2007, 1.5], [2008, 3], [2009, 4], [2011, 2], [2012, 3.5],[2013, 2],[2014, 9], [2016, 3]]
+        }
+        
+        ]
+    });
 });
 
 
